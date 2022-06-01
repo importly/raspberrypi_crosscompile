@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/importly/cmake-test2/build",
+  "command": "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -I/home/importly/cmake-test2/rootfs/usr/include  -g   -std=gnu++17 -o CMakeFiles/picontroller.dir/main.cpp.o -c /home/importly/cmake-test2/main.cpp",
+  "file": "/home/importly/cmake-test2/main.cpp"
+}
+]

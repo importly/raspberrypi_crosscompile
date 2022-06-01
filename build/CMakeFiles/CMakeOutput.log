@@ -1,0 +1,461 @@
+The system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/importly/cmake-test2/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/importly/cmake-test2/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fcc5c/fast && /usr/bin/make -f CMakeFiles/cmTC_fcc5c.dir/build.make CMakeFiles/cmTC_fcc5c.dir/build
+make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc5c.dir/testCCompiler.c.o
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc    -o CMakeFiles/cmTC_fcc5c.dir/testCCompiler.c.o   -c /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fcc5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcc5c.dir/link.txt --verbose=1
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc      CMakeFiles/cmTC_fcc5c.dir/testCCompiler.c.o  -o cmTC_fcc5c 
+make[1]: Leaving directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88130/fast && /usr/bin/make -f CMakeFiles/cmTC_88130.dir/build.make CMakeFiles/cmTC_88130.dir/build
+make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc   -v -o CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc
+Target: aarch64-rpi3-linux-gnu
+Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++,fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG UNKNOWN) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/ -isysroot /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88130.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53+crc+simd -mlittle-endian -mabi=lp64 -version -o /tmp/ccnbf8Mx.s
+GNU C17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7227a532017702c9bef7cf314c8c9ed4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o /tmp/ccnbf8Mx.s
+GNU assembler version 2.31.1 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG UNKNOWN) 2.31.1
+COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_88130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88130.dir/link.txt --verbose=1
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc     -v CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o  -o cmTC_88130 
+Using built-in specs.
+COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper
+Target: aarch64-rpi3-linux-gnu
+Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++,fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG UNKNOWN) 
+COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88130' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_88130.'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2 -plugin /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5OvWa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_88130 /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88130' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_88130.'
+make[1]: Leaving directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_88130/fast && /usr/bin/make -f CMakeFiles/cmTC_88130.dir/build.make CMakeFiles/cmTC_88130.dir/build]
+  ignore line: [make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc   -v -o CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc]
+  ignore line: [Target: aarch64-rpi3-linux-gnu]
+  ignore line: [Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG UNKNOWN) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/']
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/ -isysroot /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88130.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53+crc+simd -mlittle-endian -mabi=lp64 -version -o /tmp/ccnbf8Mx.s]
+  ignore line: [GNU C17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7227a532017702c9bef7cf314c8c9ed4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/']
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o /tmp/ccnbf8Mx.s]
+  ignore line: [GNU assembler version 2.31.1 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG UNKNOWN) 2.31.1]
+  ignore line: [COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_88130]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88130.dir/link.txt --verbose=1]
+  ignore line: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc     -v CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o  -o cmTC_88130 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-rpi3-linux-gnu]
+  ignore line: [Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG UNKNOWN) ]
+  ignore line: [COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88130' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_88130.']
+  link line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2 -plugin /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5OvWa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_88130 /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccX5OvWa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_88130] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_88130.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b906/fast && /usr/bin/make -f CMakeFiles/cmTC_3b906.dir/build.make CMakeFiles/cmTC_3b906.dir/build
+make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b906.dir/testCXXCompiler.cxx.o
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++     -o CMakeFiles/cmTC_3b906.dir/testCXXCompiler.cxx.o -c /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3b906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b906.dir/link.txt --verbose=1
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++       CMakeFiles/cmTC_3b906.dir/testCXXCompiler.cxx.o  -o cmTC_3b906 
+make[1]: Leaving directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55bf3/fast && /usr/bin/make -f CMakeFiles/cmTC_55bf3.dir/build.make CMakeFiles/cmTC_55bf3.dir/build
+make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++    -v -o CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++
+Target: aarch64-rpi3-linux-gnu
+Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++,fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG UNKNOWN) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/ -isysroot /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_55bf3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53+crc+simd -mlittle-endian -mabi=lp64 -version -o /tmp/ccQ2ZzvR.s
+GNU C++17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed"
+ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include"
+ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 36c5139adbb8d93ca69d8f148ccdb1c7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQ2ZzvR.s
+GNU assembler version 2.31.1 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG UNKNOWN) 2.31.1
+COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_55bf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55bf3.dir/link.txt --verbose=1
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++      -v CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_55bf3 
+Using built-in specs.
+COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper
+Target: aarch64-rpi3-linux-gnu
+Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++,fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG UNKNOWN) 
+COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_55bf3' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_55bf3.'
+ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2 -plugin /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccotLFOj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_55bf3 /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_55bf3' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_55bf3.'
+make[1]: Leaving directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+    add: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include]
+  collapse include dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/importly/cmake-test2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_55bf3/fast && /usr/bin/make -f CMakeFiles/cmTC_55bf3.dir/build.make CMakeFiles/cmTC_55bf3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/importly/cmake-test2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++    -v -o CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++]
+  ignore line: [Target: aarch64-rpi3-linux-gnu]
+  ignore line: [Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG UNKNOWN) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/']
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/ -isysroot /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_55bf3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53+crc+simd -mlittle-endian -mabi=lp64 -version -o /tmp/ccQ2ZzvR.s]
+  ignore line: [GNU C++17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/aarch64-rpi3-linux-gnu]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/11.2.0/backward]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/include-fixed]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (crosstool-NG UNKNOWN) version 11.2.0 (aarch64-rpi3-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 36c5139adbb8d93ca69d8f148ccdb1c7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/']
+  ignore line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQ2ZzvR.s]
+  ignore line: [GNU assembler version 2.31.1 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG UNKNOWN) 2.31.1]
+  ignore line: [COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_55bf3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55bf3.dir/link.txt --verbose=1]
+  ignore line: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++      -v CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_55bf3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-rpi3-linux-gnu]
+  ignore line: [Configured with: /home/develop/host-config/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ fortran --with-cpu=cortex-a53+crc+simd --with-pkgversion='crosstool-NG UNKNOWN' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --disable-libstdcxx-verbose --with-gmp=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/develop/host-config/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/develop/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long --enable-multiarch]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG UNKNOWN) ]
+  ignore line: [COMPILER_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/:/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_55bf3' '-shared-libgcc' '-mcpu=cortex-a53+crc+simd' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_55bf3.']
+  link line: [ /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2 -plugin /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccotLFOj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_55bf3 /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib -L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o /home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../libexec/gcc/aarch64-rpi3-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccotLFOj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_55bf3] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib]
+    arg [-L/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_55bf3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/crtend.o] ==> ignore
+    arg [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../lib/gcc/aarch64-rpi3-linux-gnu/11.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+  collapse library dir [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/../aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/11.2.0;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/lib/gcc;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib;/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+

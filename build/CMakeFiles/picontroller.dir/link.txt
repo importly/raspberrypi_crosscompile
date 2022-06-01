@@ -1,0 +1,1 @@
+/home/importly/opt/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++  -g   CMakeFiles/picontroller.dir/main.cpp.o  -o picontroller   -L/home/importly/cmake-test2/rootfs/lib  -Wl,-rpath,/home/importly/cmake-test2/rootfs/lib -lpthread -lpigpio -lrt 
